@@ -1,0 +1,10 @@
+name "OpenGL-stuff"
+description "Learning open-gl and glfw"
+authors "CircuitCoder4696"
+copyright "Copyright © 2023, CircuitCoder4696"
+license "LGPL2"   #   Currently trying to learn open-gl.
+#NotReady:   dflags "-betterC"
+versions "GL_33" "GLFW_33"
+dependency "bindbc-glfw" version="1.1.0"
+dependency "bindbc-opengl" version="1.1.0"
+sourcePaths "src"
